@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EC4086F2B46CC3300730CAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4086E2B46CC3300730CAC /* AppDelegate.swift */; };
+		4EC408712B46CC3300730CAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC408702B46CC3300730CAC /* SceneDelegate.swift */; };
+		4EC408762B46CC3300730CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC408742B46CC3300730CAC /* Main.storyboard */; };
+		4EC408782B46CC3600730CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC408772B46CC3600730CAC /* Assets.xcassets */; };
+		4EC4087B2B46CC3600730CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC408792B46CC3600730CAC /* LaunchScreen.storyboard */; };
+		4EC408862B46CC3600730CAC /* TossBenefitTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC408852B46CC3600730CAC /* TossBenefitTabTests.swift */; };
+		4EC408902B46CC3600730CAC /* TossBenefitTabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4088F2B46CC3600730CAC /* TossBenefitTabUITests.swift */; };
+		4EC408922B46CC3600730CAC /* TossBenefitTabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC408912B46CC3600730CAC /* TossBenefitTabUITestsLaunchTests.swift */; };
+		4EC4089F2B46CC6100730CAC /* BenefitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4089E2B46CC6100730CAC /* BenefitListViewController.swift */; };
+		4EC408A12B46CDA700730CAC /* Benefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC408A02B46CDA700730CAC /* Benefit.swift */; };
+		4EC408A32B46CDB600730CAC /* MyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC408A22B46CDB600730CAC /* MyPoint.swift */; };
+		4EC408A72B46D22100730CAC /* MyPointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC408A62B46D22100730CAC /* MyPointCell.swift */; };
+		4EC408A92B46D23300730CAC /* TodayBenefitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC408A82B46D23300730CAC /* TodayBenefitCell.swift */; };
+		4EC408AB2B46D24600730CAC /* BenefitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC408AA2B46D24600730CAC /* BenefitCell.swift */; };
+		4EC408AD2B46D42B00730CAC /* TodaySectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC408AC2B46D42B00730CAC /* TodaySectionItem.swift */; };
+		4EC408AF2B46EABC00730CAC /* MyPoint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC408AE2B46EABC00730CAC /* MyPoint.storyboard */; };
+		4EC408B12B46EAE100730CAC /* MyPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC408B02B46EAE100730CAC /* MyPointViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EC408822B46CC3600730CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC408632B46CC3300730CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC4086A2B46CC3300730CAC;
+			remoteInfo = TossBenefitTab;
+		};
+		4EC4088C2B46CC3600730CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC408632B46CC3300730CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC4086A2B46CC3300730CAC;
+			remoteInfo = TossBenefitTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EC4086B2B46CC3300730CAC /* TossBenefitTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TossBenefitTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC4086E2B46CC3300730CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EC408702B46CC3300730CAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EC408752B46CC3300730CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EC408772B46CC3600730CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EC4087A2B46CC3600730CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EC4087C2B46CC3600730CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC408812B46CC3600730CAC /* TossBenefitTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TossBenefitTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC408852B46CC3600730CAC /* TossBenefitTabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossBenefitTabTests.swift; sourceTree = "<group>"; };
+		4EC4088B2B46CC3600730CAC /* TossBenefitTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TossBenefitTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC4088F2B46CC3600730CAC /* TossBenefitTabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossBenefitTabUITests.swift; sourceTree = "<group>"; };
+		4EC408912B46CC3600730CAC /* TossBenefitTabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossBenefitTabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EC4089E2B46CC6100730CAC /* BenefitListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitListViewController.swift; sourceTree = "<group>"; };
+		4EC408A02B46CDA700730CAC /* Benefit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benefit.swift; sourceTree = "<group>"; };
+		4EC408A22B46CDB600730CAC /* MyPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPoint.swift; sourceTree = "<group>"; };
+		4EC408A62B46D22100730CAC /* MyPointCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPointCell.swift; sourceTree = "<group>"; };
+		4EC408A82B46D23300730CAC /* TodayBenefitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayBenefitCell.swift; sourceTree = "<group>"; };
+		4EC408AA2B46D24600730CAC /* BenefitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitCell.swift; sourceTree = "<group>"; };
+		4EC408AC2B46D42B00730CAC /* TodaySectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySectionItem.swift; sourceTree = "<group>"; };
+		4EC408AE2B46EABC00730CAC /* MyPoint.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPoint.storyboard; sourceTree = "<group>"; };
+		4EC408B02B46EAE100730CAC /* MyPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPointViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC408682B46CC3300730CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC4087E2B46CC3600730CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC408882B46CC3600730CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EC408622B46CC3300730CAC = {
+			isa = PBXGroup;
+			children = (
+				4EC4086D2B46CC3300730CAC /* TossBenefitTab */,
+				4EC408842B46CC3600730CAC /* TossBenefitTabTests */,
+				4EC4088E2B46CC3600730CAC /* TossBenefitTabUITests */,
+				4EC4086C2B46CC3300730CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EC4086C2B46CC3300730CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EC4086B2B46CC3300730CAC /* TossBenefitTab.app */,
+				4EC408812B46CC3600730CAC /* TossBenefitTabTests.xctest */,
+				4EC4088B2B46CC3600730CAC /* TossBenefitTabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EC4086D2B46CC3300730CAC /* TossBenefitTab */ = {
+			isa = PBXGroup;
+			children = (
+				4EC4086E2B46CC3300730CAC /* AppDelegate.swift */,
+				4EC408702B46CC3300730CAC /* SceneDelegate.swift */,
+				4EC408A52B46CFDE00730CAC /* Home */,
+				4EC408B22B46EAEF00730CAC /* MyPoint */,
+				4EC408A42B46CDC100730CAC /* Model */,
+				4EC408772B46CC3600730CAC /* Assets.xcassets */,
+				4EC408792B46CC3600730CAC /* LaunchScreen.storyboard */,
+				4EC4087C2B46CC3600730CAC /* Info.plist */,
+			);
+			path = TossBenefitTab;
+			sourceTree = "<group>";
+		};
+		4EC408842B46CC3600730CAC /* TossBenefitTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC408852B46CC3600730CAC /* TossBenefitTabTests.swift */,
+			);
+			path = TossBenefitTabTests;
+			sourceTree = "<group>";
+		};
+		4EC4088E2B46CC3600730CAC /* TossBenefitTabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC4088F2B46CC3600730CAC /* TossBenefitTabUITests.swift */,
+				4EC408912B46CC3600730CAC /* TossBenefitTabUITestsLaunchTests.swift */,
+			);
+			path = TossBenefitTabUITests;
+			sourceTree = "<group>";
+		};
+		4EC408A42B46CDC100730CAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EC408A02B46CDA700730CAC /* Benefit.swift */,
+				4EC408A22B46CDB600730CAC /* MyPoint.swift */,
+				4EC408AC2B46D42B00730CAC /* TodaySectionItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EC408A52B46CFDE00730CAC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4EC408742B46CC3300730CAC /* Main.storyboard */,
+				4EC4089E2B46CC6100730CAC /* BenefitListViewController.swift */,
+				4EC408A62B46D22100730CAC /* MyPointCell.swift */,
+				4EC408A82B46D23300730CAC /* TodayBenefitCell.swift */,
+				4EC408AA2B46D24600730CAC /* BenefitCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4EC408B22B46EAEF00730CAC /* MyPoint */ = {
+			isa = PBXGroup;
+			children = (
+				4EC408AE2B46EABC00730CAC /* MyPoint.storyboard */,
+				4EC408B02B46EAE100730CAC /* MyPointViewController.swift */,
+			);
+			path = MyPoint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EC4086A2B46CC3300730CAC /* TossBenefitTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC408952B46CC3600730CAC /* Build configuration list for PBXNativeTarget "TossBenefitTab" */;
+			buildPhases = (
+				4EC408672B46CC3300730CAC /* Sources */,
+				4EC408682B46CC3300730CAC /* Frameworks */,
+				4EC408692B46CC3300730CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TossBenefitTab;
+			productName = TossBenefitTab;
+			productReference = 4EC4086B2B46CC3300730CAC /* TossBenefitTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EC408802B46CC3600730CAC /* TossBenefitTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC408982B46CC3600730CAC /* Build configuration list for PBXNativeTarget "TossBenefitTabTests" */;
+			buildPhases = (
+				4EC4087D2B46CC3600730CAC /* Sources */,
+				4EC4087E2B46CC3600730CAC /* Frameworks */,
+				4EC4087F2B46CC3600730CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC408832B46CC3600730CAC /* PBXTargetDependency */,
+			);
+			name = TossBenefitTabTests;
+			productName = TossBenefitTabTests;
+			productReference = 4EC408812B46CC3600730CAC /* TossBenefitTabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EC4088A2B46CC3600730CAC /* TossBenefitTabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC4089B2B46CC3600730CAC /* Build configuration list for PBXNativeTarget "TossBenefitTabUITests" */;
+			buildPhases = (
+				4EC408872B46CC3600730CAC /* Sources */,
+				4EC408882B46CC3600730CAC /* Frameworks */,
+				4EC408892B46CC3600730CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC4088D2B46CC3600730CAC /* PBXTargetDependency */,
+			);
+			name = TossBenefitTabUITests;
+			productName = TossBenefitTabUITests;
+			productReference = 4EC4088B2B46CC3600730CAC /* TossBenefitTabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EC408632B46CC3300730CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					4EC4086A2B46CC3300730CAC = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					4EC408802B46CC3600730CAC = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4EC4086A2B46CC3300730CAC;
+					};
+					4EC4088A2B46CC3600730CAC = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4EC4086A2B46CC3300730CAC;
+					};
+				};
+			};
+			buildConfigurationList = 4EC408662B46CC3300730CAC /* Build configuration list for PBXProject "TossBenefitTab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EC408622B46CC3300730CAC;
+			productRefGroup = 4EC4086C2B46CC3300730CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EC4086A2B46CC3300730CAC /* TossBenefitTab */,
+				4EC408802B46CC3600730CAC /* TossBenefitTabTests */,
+				4EC4088A2B46CC3600730CAC /* TossBenefitTabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EC408692B46CC3300730CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC4087B2B46CC3600730CAC /* LaunchScreen.storyboard in Resources */,
+				4EC408AF2B46EABC00730CAC /* MyPoint.storyboard in Resources */,
+				4EC408782B46CC3600730CAC /* Assets.xcassets in Resources */,
+				4EC408762B46CC3300730CAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC4087F2B46CC3600730CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC408892B46CC3600730CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EC408672B46CC3300730CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC408A32B46CDB600730CAC /* MyPoint.swift in Sources */,
+				4EC408AD2B46D42B00730CAC /* TodaySectionItem.swift in Sources */,
+				4EC408AB2B46D24600730CAC /* BenefitCell.swift in Sources */,
+				4EC4086F2B46CC3300730CAC /* AppDelegate.swift in Sources */,
+				4EC408A12B46CDA700730CAC /* Benefit.swift in Sources */,
+				4EC408A92B46D23300730CAC /* TodayBenefitCell.swift in Sources */,
+				4EC4089F2B46CC6100730CAC /* BenefitListViewController.swift in Sources */,
+				4EC408A72B46D22100730CAC /* MyPointCell.swift in Sources */,
+				4EC408712B46CC3300730CAC /* SceneDelegate.swift in Sources */,
+				4EC408B12B46EAE100730CAC /* MyPointViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC4087D2B46CC3600730CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC408862B46CC3600730CAC /* TossBenefitTabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC408872B46CC3600730CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC408902B46CC3600730CAC /* TossBenefitTabUITests.swift in Sources */,
+				4EC408922B46CC3600730CAC /* TossBenefitTabUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EC408832B46CC3600730CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC4086A2B46CC3300730CAC /* TossBenefitTab */;
+			targetProxy = 4EC408822B46CC3600730CAC /* PBXContainerItemProxy */;
+		};
+		4EC4088D2B46CC3600730CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC4086A2B46CC3300730CAC /* TossBenefitTab */;
+			targetProxy = 4EC4088C2B46CC3600730CAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EC408742B46CC3300730CAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC408752B46CC3300730CAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EC408792B46CC3600730CAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC4087A2B46CC3600730CAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EC408932B46CC3600730CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EC408942B46CC3600730CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EC408962B46CC3600730CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TossBenefitTab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = park.com.TossBenefitTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EC408972B46CC3600730CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TossBenefitTab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = park.com.TossBenefitTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EC408992B46CC3600730CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = park.com.TossBenefitTabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TossBenefitTab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TossBenefitTab";
+			};
+			name = Debug;
+		};
+		4EC4089A2B46CC3600730CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = park.com.TossBenefitTabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TossBenefitTab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TossBenefitTab";
+			};
+			name = Release;
+		};
+		4EC4089C2B46CC3600730CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = park.com.TossBenefitTabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TossBenefitTab;
+			};
+			name = Debug;
+		};
+		4EC4089D2B46CC3600730CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = park.com.TossBenefitTabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TossBenefitTab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EC408662B46CC3300730CAC /* Build configuration list for PBXProject "TossBenefitTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC408932B46CC3600730CAC /* Debug */,
+				4EC408942B46CC3600730CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC408952B46CC3600730CAC /* Build configuration list for PBXNativeTarget "TossBenefitTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC408962B46CC3600730CAC /* Debug */,
+				4EC408972B46CC3600730CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC408982B46CC3600730CAC /* Build configuration list for PBXNativeTarget "TossBenefitTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC408992B46CC3600730CAC /* Debug */,
+				4EC4089A2B46CC3600730CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC4089B2B46CC3600730CAC /* Build configuration list for PBXNativeTarget "TossBenefitTabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC4089C2B46CC3600730CAC /* Debug */,
+				4EC4089D2B46CC3600730CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EC408632B46CC3300730CAC /* Project object */;
+}
