@@ -2,31 +2,34 @@
 //  MyPointViewController.swift
 //  TossBenefitTab
 //
-//  Created by 박호건 on 1/4/24.
+//  Created by 박호건 on 3/24/24.
 //
 
 import UIKit
+import Combine
 
 class MyPointViewController: UIViewController {
     
     @IBOutlet weak var pointLabel: UILabel!
-    var point: MyPoint = .default
+    
+    var viewModel: MyPointViewModel!
+    var subscriptions = Set<AnyCancellable>()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.largeTitleDisplayMode = .never
-        
+        setupUI()
+        bind()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func setupUI() {
+        navigationItem.largeTitleDisplayMode = .never
     }
-    */
-
+    
+    private func bind() {
+        viewModel.$point
+            .receive(on: RunLoop.main)
+            .sink{ point in
+                self.pointLabel.text = "\(point.point)원"
+            }.store(in: &subscriptions)
+    }
 }
