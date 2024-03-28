@@ -26,6 +26,8 @@
 		4EE2182B2BB30B7B00023371 /* DiaryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2182A2BB30B7B00023371 /* DiaryListViewModel.swift */; };
 		4EE2182D2BB316B400023371 /* DiaryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2182C2BB316B400023371 /* DiaryDetailsViewModel.swift */; };
 		4EE2182F2BB3173400023371 /* DiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2182E2BB3173400023371 /* DiaryViewModel.swift */; };
+		4EE218312BB5A34400023371 /* MonthlyIDGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE218302BB5A34400023371 /* MonthlyIDGenerator.swift */; };
+		4EE218332BB5A36800023371 /* MonthlyIDGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE218322BB5A36800023371 /* MonthlyIDGeneratorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		4EE2182A2BB30B7B00023371 /* DiaryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListViewModel.swift; sourceTree = "<group>"; };
 		4EE2182C2BB316B400023371 /* DiaryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailsViewModel.swift; sourceTree = "<group>"; };
 		4EE2182E2BB3173400023371 /* DiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewModel.swift; sourceTree = "<group>"; };
+		4EE218302BB5A34400023371 /* MonthlyIDGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyIDGenerator.swift; sourceTree = "<group>"; };
+		4EE218322BB5A36800023371 /* MonthlyIDGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyIDGeneratorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				4EE217F82BB303C600023371 /* EmotionDiaryTests.swift */,
+				4EE218322BB5A36800023371 /* MonthlyIDGeneratorTests.swift */,
 			);
 			path = EmotionDiaryTests;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				4EE2181A2BB3057700023371 /* Mood.swift */,
+				4EE218302BB5A34400023371 /* MonthlyIDGenerator.swift */,
 				4EE2181C2BB3058D00023371 /* MoodDiary.swift */,
 			);
 			path = Model;
@@ -347,6 +353,7 @@
 				4EE217E82BB303C400023371 /* EmotionDiaryApp.swift in Sources */,
 				4EE2182F2BB3173400023371 /* DiaryViewModel.swift in Sources */,
 				4EE218232BB3061700023371 /* DiaryDateInputView.swift in Sources */,
+				4EE218312BB5A34400023371 /* MonthlyIDGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE218332BB5A36800023371 /* MonthlyIDGeneratorTests.swift in Sources */,
 				4EE217F92BB303C600023371 /* EmotionDiaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
